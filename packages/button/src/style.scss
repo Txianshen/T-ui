@@ -1,0 +1,240 @@
+.t-button {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    -webkit-appearance: none;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+    font-weight: 500;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  //兄弟元素
+  .t-button+.t-button {
+    margin-left: 10px;
+  }
+  
+  .t-button:focus,
+  .t-button:hover {
+    color: #409EFF;
+    border-color: #c6e2ff;
+    background-color: #ecf5ff;
+  }
+  
+  .t-button:active {
+    color: #3a8ee6;
+    border-color: #3a8ee6;
+    outline: 0;
+  }
+  
+  .t-button.is-disabled,
+  .t-button.is-disabled:focus,
+  .t-button.is-disabled:hover {
+    color: #c0c4cc;
+    cursor: not-allowed;
+    background-image: none;
+    background-color: #fff;
+    border-color: #ebeef5;
+  }
+  
+  .t-button--primary {
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+  }
+  
+  .t-button--primary:focus,
+  .t-button--primary:hover {
+    background: #66b1ff;
+    border-color: #66b1ff;
+    color: #fff;
+  }
+  
+  .t-button--primary.is-disabled,
+  .t-button--primary.is-disabled:active,
+  .t-button--primary.is-disabled:focus,
+  .t-button--primary.is-disabled:hover {
+    color: #fff;
+    background-color: #a0cfff;
+    border-color: #a0cfff;
+  }
+  
+  
+  .t-button--success {
+    color: #fff;
+    background-color: #67c23a;
+    border-color: #67c23a;
+  }
+  
+  .t-button--success:focus,
+  .t-button--success:hover {
+    background: #85ce61;
+    border-color: #85ce61;
+    color: #fff;
+  }
+  
+  .t-button--success.is-active,
+  .t-button--success:active {
+    background: #5daf34;
+    border-color: #5daf34;
+    color: #fff;
+  }
+  
+  .t-button--success:active {
+    outline: 0;
+  }
+  
+  .t-button--success.is-disabled,
+  .t-button--success.is-disabled:active,
+  .t-button--success.is-disabled:focus,
+  .t-button--success.is-disabled:hover {
+    color: #fff;
+    background-color: #b3e19d;
+    border-color: #b3e19d;
+  }
+  
+  .t-button--warning {
+    color: #fff;
+    background-color: #e6a23c;
+    border-color: #e6a23c;
+  }
+  
+  .t-button--warning:focus,
+  .t-button--warning:hover {
+    background: #ebb563;
+    border-color: #ebb563;
+    color: #fff;
+  }
+  
+  .t-button--warning.is-active,
+  .t-button--warning:active {
+    background: #cf9236;
+    border-color: #cf9236;
+    color: #fff;
+  }
+  
+  .t-button--warning:active {
+    outline: 0;
+  }
+  
+  .t-button--warning.is-disabled,
+  .t-button--warning.is-disabled:active,
+  .t-button--warning.is-disabled:focus,
+  .t-button--warning.is-disabled:hover {
+    color: #fff;
+    background-color: #f3d19e;
+    border-color: #f3d19e;
+  }
+  
+  .t-button--danger {
+    color: #fff;
+    background-color: #f56c6c;
+    border-color: #f56c6c;
+  }
+  
+  .t-button--danger:focus,
+  .t-button--danger:hover {
+    background: #f78989;
+    border-color: #f78989;
+    color: #fff;
+  }
+  
+  .t-button--danger.is-active,
+  .t-button--danger:active {
+    background: #dd6161;
+    border-color: #dd6161;
+    color: #fff;
+  }
+  
+  .t-button--danger:active {
+    outline: 0;
+  }
+  
+  .t-button--danger.is-disabled,
+  .t-button--danger.is-disabled:active,
+  .t-button--danger.is-disabled:focus,
+  .t-button--danger.is-disabled:hover {
+    color: #fff;
+    background-color: #fab6b6;
+    border-color: #fab6b6;
+  }
+  
+  
+  .t-button--info {
+    color: #fff;
+    background-color: #909399;
+    border-color: #909399;
+  }
+  
+  .t-button--info:focus,
+  .t-button--info:hover {
+    background: #a6a9ad;
+    border-color: #a6a9ad;
+    color: #fff;
+  }
+  
+  .t-button--info.is-active,
+  .t-button--info:active {
+    background: #82848a;
+    border-color: #82848a;
+    color: #fff;
+  }
+  
+  .t-button--info:active {
+    outline: 0;
+  }
+  
+  .t-button--info.is-disabled,
+  .t-button--info.is-disabled:active,
+  .t-button--info.is-disabled:focus,
+  .t-button--info.is-disabled:hover {
+    color: #fff;
+    background-color: #c8c9cc;
+    border-color: #c8c9cc;
+  }
+  
+  /**圆角**/
+  .t-button.is-round {
+    border-radius: 20px;
+    padding: 12px 23px;
+  }
+  
+  /**size**/
+  
+  .t-button--medium {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  
+  .t-button--mini,
+  .t-button--small {
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  
+  .t-button--small {
+    padding: 9px 15px;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  
+  .t-button--mini {
+    padding: 7px 15px;
+    font-size: 12px;
+    border-radius: 3px;
+  }
+  
+  .t-button::-moz-focus-inner {
+    border: 0;
+  }
