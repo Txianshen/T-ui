@@ -39,8 +39,8 @@ export default {
       return {
         [`t-button--${this.type}`]:this.type,
         [`t-button--${this.size}`]:this.size,
-        'is--disabled':this.disabled,
-        'is--round':this.round
+        'is-disabled':this.disabled,
+        'is-round':this.round
       }
     }
   },

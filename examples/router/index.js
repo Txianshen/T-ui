@@ -10,7 +10,13 @@ const routes = [
     },
     {
         path:"/components",
-        component:()=>import("@/views/container/container.vue")
+        component:()=>import("@/views/container/container.vue"),
+        children:[
+            {
+                path:'/components/Button',
+                component:()=>import('@/views/button/button.vue')
+            }
+        ]
     }
 ]
 

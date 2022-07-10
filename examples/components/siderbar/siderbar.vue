@@ -19,7 +19,7 @@
 					children:[
 						{
 							title:"Button",
-							path:"",
+							path:"/components/Button",
 							acitve:false
 						},
 						{
@@ -49,6 +49,8 @@
 						})
 					}
 				})
+				// 跳转路由
+				this.$router.push(submenu.path)
 			}
 		}
 	}

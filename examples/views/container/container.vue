@@ -1,7 +1,9 @@
 <template>
  <div class="container">
 		<siderbar/>
-		<div class="right"></div>
+		<div class="right">
+			<router-view/>
+		</div>
  </div>
 </template>
 <script>
@@ -28,9 +30,11 @@ export default {
 	height: calc(100% - 45px);
 	display: flex;
 	.right {
-		// width: calc(100% - 250px);
 		height: 100%;
 		flex: 1;
+		text-align: left;
+		padding-left: calc(20%);
+		padding-right: calc(20%);
 	}
 }
 </style>
