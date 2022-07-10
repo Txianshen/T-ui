@@ -3,7 +3,7 @@
       <img src="@/assets/logo.png" alt="" width="300" height="300">
       <p> T-ui</p>
       <p style="color: #6a8bad;font-size: 20px;">为你量身而定的T-ui</p>
-      <button class="check-btn">快速入手</button>
+      <button class="check-btn" @click="toComponents">快速入手</button>
     </div>
 </template>
 
@@ -14,6 +14,11 @@
             return {
 
             }
+        },
+        methods:{
+          toComponents(){
+            this.$router.push('/components')
+          }
         }
     }
 </script>

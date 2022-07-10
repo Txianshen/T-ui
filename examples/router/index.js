@@ -1,4 +1,3 @@
-// import { createRouter,createWebHistory } from "vue-router";
 import VueRouter from "vue-router"
 const routes = [
     {
@@ -8,6 +7,10 @@ const routes = [
     {
         path:'/home',
         component:()=>import("@/views/home.vue")
+    },
+    {
+        path:"/components",
+        component:()=>import("@/views/container/container.vue")
     }
 ]
 
