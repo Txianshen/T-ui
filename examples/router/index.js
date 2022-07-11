@@ -15,6 +15,10 @@ const routes = [
             {
                 path:'/components/Button',
                 component:()=>import('@/views/button/button.vue')
+            },
+            {
+                path:'/components/Input',
+                component:()=>import('@/views/input/input.vue')
             }
         ]
     }

@@ -64,7 +64,7 @@
     width: 6px;
   }
   
-  .r-textarea {
+  .t-textarea {
     display: block;
     resize: vertical;
     padding: 5px 15px;
@@ -80,7 +80,7 @@
     transition: border-color .2s cubic-bezier(.645, .045, .355, 1)
   }
   
-  .r-textarea:focus {
+  .t-textarea:focus {
     outline: none;
     border-color: #409eff;
   }

@@ -29,7 +29,7 @@
 						},
 						{
 							title:'Input',
-							path:"",
+							path:"/components/Input",
 							acitve:false
 						}
 					]
